@@ -3,7 +3,7 @@ import { BrowserModule } from "@angular/platform-browser";
 import { FormsModule } from "@angular/forms";
 import { HttpClientModule } from "@angular/common/http";
 
-import { HttpClientInMemoryWebApiModule } from "angular-in-memory-web-api";
+import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from "./in-memory-data.service";
 
 import { AppRoutingModule } from "./app-routing.module";
@@ -39,4 +39,4 @@ import { MessagesComponent } from "./messages/messages.component";
   ],
   bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule { }
